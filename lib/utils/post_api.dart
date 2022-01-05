@@ -12,7 +12,7 @@ class PostsApi {
     List postsList = [];
     try {
       // This is an open REST API endpoint for testing purposes
-      var API = 'http://post-entries.herokuapp.com/api/posts?categories_id='+cat_id;
+      var API = 'http://post-entries.herokuapp.com/api/posts/category/'+cat_id;
 
       final  response = await get(Uri.parse(API));
 
