@@ -1,12 +1,12 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'screens/categories.dart';
+import 'screens/rss_feed.dart';
 //import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 
 
 void main() {
-  //WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   //MobileAds.instance.initialize();
   runApp(MyApp());
 }
@@ -42,7 +42,7 @@ class SplashScreenState extends State<MyHomePage> {
     return Container(
         color: Colors.white,
         child: Center(
-          child: const Image(image: AssetImage('assets/790020.png'),width: 100,
+          child: const Image(image: AssetImage('assets/logo2-4.png'),
             height: 100,
             fit: BoxFit.cover) ,
         )
