@@ -1,6 +1,6 @@
-# posts
+# Flutter RSS feed parsing
 
-A new Flutter project.
+This is demo application of flutter which parse RSS XML feed contents to the flutter application
 
 ## Getting Started
 
